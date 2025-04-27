@@ -1,0 +1,46 @@
+{
+    "name": "game design day 1 ",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.53",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#F8F1F1",
+        "#A17272",
+        "#762D4E",
+        "#613564",
+        "#FFCCE5",
+        "#C680A6",
+        "#DB5174",
+        "#BE8A79",
+        "#846293",
+        "#D6B3EA",
+        "#A4839F",
+        "#5C406c",
+        "#EEBBAA",
+        "#91463d",
+        "#1F1E1E"
+    ]
+}

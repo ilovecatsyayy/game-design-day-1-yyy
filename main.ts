@@ -9,7 +9,7 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (mySprite.isHittingTile(CollisionDirection.Bottom)) {
         if (controller.right.isPressed() && controller.right.isPressed()) {
-            mySprite.vy = -150
+            mySprite.vy = -200
             animation.runImageAnimation(
             mySprite,
             assets.animation`jumpright1`,
@@ -17,7 +17,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             false
             )
         } else if (controller.down.isPressed()) {
-            mySprite.vy = -150
+            mySprite.vy = -200
             animation.runImageAnimation(
             mySprite,
             assets.animation`frontjump1`,
@@ -25,7 +25,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             false
             )
         } else if (controller.left.isPressed()) {
-            mySprite.vy = -150
+            mySprite.vy = -200
             animation.runImageAnimation(
             mySprite,
             assets.animation`jumpleft1`,
@@ -33,7 +33,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             false
             )
         } else if (controller.up.isPressed()) {
-            mySprite.vy = -150
+            mySprite.vy = -175
             animation.runImageAnimation(
             mySprite,
             assets.animation`backjump1`,
@@ -41,7 +41,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             false
             )
         } else {
-            mySprite.vy = -150
+            mySprite.vy = -200
             animation.runImageAnimation(
             mySprite,
             assets.animation`frontjump1`,
@@ -88,7 +88,6 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 let mySprite: Sprite = null
-mySprite.setPosition(0, 50)
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
